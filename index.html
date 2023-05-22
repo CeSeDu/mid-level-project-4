@@ -1,71 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-<nav class="d-flex">
-    <div class="dropdown">
-        <button class="bg-transparent border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="">
-         English
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-    </div>
-    <div class="dropdown">
-        <button class="bg-transparent border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="">
-            $ USD
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-    </div>
-    <span>
-        <i class="doricon-search"></i>
-        <i class="doricon-buy-1"></i>
-        <i class="doricon-user-3"></i>
+
+<body class="container-fluid p-0 m-0">
+    <span class="">
+        <nav
+            class=" justify-content-between  bg-dark align-items-center container-fluid px-lg-5 mx-lg-2 me-lg-5 d-none d-md-flex ">
+            <span class="d-flex gap-5">
+                <div class="dropdown">
+                    <button class="bg-transparent dropdown__hover  border-0 dropdown-toggle " data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                        English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item fw-lighter" href="#"> <img
+                                    src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                                English</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#"> <img
+                                    src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                                English</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#"> <img
+                                    src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                                English</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#"> <img
+                                    src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                                English</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#"> <img
+                                    src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                                English</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="bg-transparent dropdown__hover border-0 dropdown-toggle " data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="http://bionic-market.doradothemes.com/watch/img/l/1.jpg" alt="" />
+                        $ USD
+                    </button>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item fw-lighter" href="#">£-EUR</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#">ZL PLN</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#">SAR-SAR</a></li>
+                        <li><a class="dropdown-item fw-lighter" href="#">$-USD</a></li>
+                    </ul>
+                </div>
+            </span>
+            <span class="text-white fw-light">Welcome to our online store!</span>
+
+            <span class="d-flex gap-3">
+            
+
+                <!-- Default dropstart button -->
+            
+                <i class="btn btn__hover bi bi-search m-0"></i>
+                <i class="btn bi bi-basket3 btn__hover"></i>
+                <div class="dropdown " >
+                    <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="btn bi bi-person-circle btn__hover"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu users__content rounded-0">
+                      <li><a class="dropdown-item fw-lighter" href="#"><i class="bi bi-people"></i> My account</a></li>
+                      <li><a class="dropdown-item fw-lighter" href="#"><i class="bi bi-list-check"></i> My wishlist</a></li>
+                      <li><a class="dropdown-item fw-lighter" href="#"><i class="bi bi-basket"></i> My cart</a></li>
+                      <li><a class="dropdown-item fw-lighter" href="#"><i class="bi bi-sign-dead-end"></i> Sign in popup</a></li>
+                      <li><a class="dropdown-item fw-lighter" href="#"><i class="bi bi-sign-dead-end"></i> Sign in popup</a></li>
+                    </ul>
+                  </div>
+     
+     
+         
+            </span>
+        </nav>
+
+        <nav
+            class="d-flex justify-content-between align-items-center   navbar navbar-expand-lg container-fluid navbar__container px-md-3 px-lg-5 mx-lg-2 me-lg-5">
+            <button class="navbar-toggler bi bi-list p-0 bg__tomato" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="http://bionic-market.doradothemes.com/watch/img/bionic-watch-logo-15901729002.jpg" alt=""
+                class="logo" />
+
+            <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbar" aria-label="Toggle navigation" style=" ">
+                <ul class="offcanvas-body d-md-grid d-lg-flex gap-md-3 w-25">
+                    <li class="nav-item text-decoration-none">
+                        <a class="text-white text-decoration-none nav-link" href="">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">WATCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">BLOGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white text-decoration-none nav-link" href="">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <span>
+                <span class="bi bi-telephone text-white"></span>
+                <span class="text-white"> 1(800)962 8986</span>
+            </span>
+        </nav>
     </span>
-</nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide container-fluid ">
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption text-start d-none d-md-block">
+                    <h1>NEW ARRIVALS</h1>
+                    <small>BIG SALE UP TO %40 OFF</small>
+                    <br />
+                    <button class="mt-5 bg-danger border-0 p-3 text-white fw-lighter">
+                        SHOP NOW
+                    </button>
+                </div>
+                <img src="http://bionic-market.doradothemes.com/watch/modules/dor_imageslider/images/bionic-watch-slider1-01.jpg"
+                    class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="http://bionic-market.doradothemes.com/watch/modules/dor_imageslider/images/bionic-watch-slider1-02.jpg"
+                    class="d-block w-100" alt="..." />
+
+                <div class="carousel-caption text-start d-none d-md-block">
+                    <h1>OMEGA WATCHES</h1>
+                    <small>BIG SALE UP TO %40 OFF</small>
+                    <br />
+                    <button class="mt-5 bg-danger border-0 p-3 text-white fw-lighter">
+                        DESIGN & ORDER
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="d-flex">
+        <a href="" class="card border-0 card__img__hover"><img src="./assets/img/banner-men-catalog.jpg" alt=""> </a>
+        <a href="" class="card border-0 card__img__hover"><img src="./assets/img/banner-women-catalog.jpg" alt=""></a>
+        <a href="" class="card border-0 card__img__hover"><img src="./assets/img/banner-couples-catalog.jpg" alt=""></a>
+        <a href="" class="card border-0 card__img__hover"><img src="./assets/img/banner-accessories-catalog.jpg"
+                alt=""></a>
+    </section>
+
+    <div class="main__title container-fluid text-center fs-1 text-white  py-5">NEW ARRIVALS</div>
+
+    <div class="row justify-content-center">
+        <div class="watch__card  bg-black d-grid justify-content-center align-items-center col-6 col-md-2">
+            <img class="watch__size mx-auto"
+                src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                alt="">
+            <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+            <h6 class="text-danger text-center">$269.00</h6>
+            <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+        </div>
+        <div class="watch__card  bg-black d-grid justify-content-center align-items-center col-6 col-md-2">
+            <img class="watch__size mx-auto"
+                src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                alt="">
+            <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+            <h6 class="text-danger text-center">$269.00</h6>
+            <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+        </div>
+        <div class="watch__card  bg-black d-grid justify-content-center align-items-center col-6 col-md-2">
+            <img class="watch__size mx-auto"
+                src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                alt="">
+            <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+            <h6 class="text-danger text-center">$269.00</h6>
+            <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+        </div>
+        <div class="watch__card  bg-black d-grid justify-content-center align-items-center col-6 col-md-2">
+            <img class="watch__size mx-auto"
+                src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                alt="">
+            <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+            <h6 class="text-danger text-center">$269.00</h6>
+            <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+        </div>
+        <div class="watch__card  bg-black d-grid justify-content-center align-items-center col-6 col-md-2">
+            <img class="watch__size mx-auto"
+                src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                alt="">
+            <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+            <h6 class="text-danger text-center">$269.00</h6>
+            <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card__container row mx-auto d-flex justify-content-center my-5">
+        <div class="left__banner d-flex  flex-wrap col-8 col-md-6  p-5">
+            <img class="watch__size"
+                src="http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/assets/img/dorado/dis-item-01.png"
+                alt="">
+            <span class="d-grid">
+                <div class="text__container ">
+                    <h4 class="text-white fw-lighter fs-5">Waterproof Jacket</h4>
+                    <div class="d-flex align-items-end">
+                        <h2 class="text-white">MEN</h2>
+                        <h3 class="text-danger fw-light">$350</h3>
+                    </div>
+                </div>
+                <ul class="text-white fw-lighter p-3">
+                    <li>Integrated i-Lume LED rear light</li>
+                    <li>Optional hood available separately</li>
+                    <li>Breathability rating 15,000
+                    </li>
+                </ul>
+                <div class="d-flex align-items-end">
+                    <h6 class="text-white">DETAIL</h6>
+                    <div class="vertical__line"></div>
+                    <h6 class="text-danger ">ADD TO CART</h6>
+                </div>
+            </span>
+
+        </div>
+        <div class="right__banner d-flex flex-wrap col-8 col-md-6  p-5">
 
 
+            <span class="d-grid">
+                <div class="text__container ">
+                    <h4 class="text-white fw-lighter fs-5">Waterproof Jacket</h4>
+                    <div class="d-flex align-items-end">
+                        <h2 class="text-white">Women</h2>
+                        <h3 class="text-danger fw-light">$250</h3>
+                    </div>
+                </div>
+                <ul class="text-white fw-lighter p-3">
+                    <li>Integrated i-Lume LED rear light</li>
+                    <li>Optional hood available separately</li>
+                    <li>Breathability rating 15,000
+                    </li>
+                </ul>
+                <div class="d-flex align-items-end">
+                    <h6 class="text-white">DETAIL</h6>
+                    <div class="vertical__line"></div>
+                    <h6 class="text-danger ">ADD TO CART</h6>
+                </div>
+
+            </span>
+            <img class="watch__size"
+                src="http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/assets/img/dorado/dis-item-01.png"
+                alt="">
+
+        </div>
+
+        <div class="row container justify-content-center">
+            <div class="main__title container-fluid fs-1 text-white  col-11 ">BEST SELLERS</div>
+            <div class="col-lg-3 col-12">
+                <img class="Col__2__img"
+                    src="http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/modules/dor_productsuggestions/assets/images/best-sellers-banner.jpg"
+                    alt="">
+            </div>
+            <div class="col-lg-8 d-flex flex-wrap col-12">
+
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center ">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+                <div class="watch__card  bg-black d-grid justify-content-center align-items-center">
+                    <img class="watch__size mx-auto"
+                        src="http://bionic-market.doradothemes.com/watch/182-home_default/silversilver-grey-leather-berkeley-38.jpg"
+                        alt="">
+                    <p class="text-white w-75 text-center mx-auto">Silver/Silver Grey Leather Berkeley 38</p>
+                    <h6 class="text-danger text-center">$269.00</h6>
+                    <button class="watch__btn w-50 mx-auto my-3">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-wrap col-lg-10  ">
+
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-01.png" class="d-block w-100"
+                alt="...">
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-02.png" class="d-block w-100"
+                alt="...">
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-03.png" class="d-block w-100"
+                alt="...">
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-04.png" class="d-block w-100"
+                alt="...">
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-05.png" class="d-block w-100"
+                alt="...">
+            <img class="brand__container p-5"
+                src="http://bionic-market.doradothemes.com/img/cms/dorado/brand/brand-06.png" class="d-block w-100"
+                alt="...">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-12 instagram__content__container align-items-center justify-content-end ">
+            <span class="text-center px-5 ">
+                <div class="bi bi-instagram bi-instagram__big"></div>
+                <h1>Instagram Shop</h1>
+                <a class="text-decoration-none text-white text-center mx-auto" href="">@Bionic_Fashion</a>
+            </span>
+        </div>
+        <div class="col-12 col-lg-8 d-flex  p-0">
+            <div class="instagram__img__container">
+                <img class="instagram__img"
+                    src="http://bionic-market.doradothemes.com/watch/img/dorthumbs/instagram/300x300/instagram/watch1.jpg"
+                    alt="">
+            </div>
+            <div class="instagram__img__container">
+                <img class="instagram__img"
+                    src="http://bionic-market.doradothemes.com/watch/img/dorthumbs/instagram/300x300/instagram/watch2.jpg"
+                    alt="">
+            </div>
+            <div class="instagram__img__container">
+                <img class="instagram__img"
+                    src="http://bionic-market.doradothemes.com/watch/img/dorthumbs/instagram/300x300/instagram/watch3.jpg"
+                    alt="">
+            </div>
+            <div class="instagram__img__container">
+                <img class="instagram__img"
+                    src="http://bionic-market.doradothemes.com/watch/img/dorthumbs/instagram/300x300/instagram/watch4.jpg"
+                    alt="">
+            </div>
+            <div class="instagram__img__container">
+                <img class="instagram__img "
+                    src="http://bionic-market.doradothemes.com/watch/img/dorthumbs/instagram/300x300/instagram/watch5.jpg"
+                    alt="">
+            </div>
 
 
+        </div>
+    </div>
+
+    <div class="col-12 footer__top__bg d-flex justify-content-center align-items-center gap-5 py-3 m-0 flex-wrap">
+        <div class="bi bi-envelope-fill fs-1 bi__white"></div>
+        <div class="d-grid text-white col-12">
+            <span>Join our newsletter</span>
+            <small class="text-secondary text-opacity-50">Sign up for our newsletter and get 20% your next
+                order.</small>
+        </div>
+        <div class="search__container col-lg-3 col-12 rounded-5 bg-white d-flex">
+            <input class="col-9 p-2 bg-transparent border-0" type="search" name="" id=""
+                placeholder="Type ypur email hare">
+            <button class="btn__subscribe w-25 ">SUBSCRIBE</button>
+        </div>
+
+        <div class="social__buttons d-flex gap-5 col-12">
+            <div class="bi bi-facebook bi__white " data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+            </div>
+            <div class="bi bi-twitter bi__white " data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+            </div>
+            <div class="bi bi-linkedin bi__white " data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+            </div>
+        </div>
 
 
+    </div>
 
+    <footer class="row justify-content-center p-5">
+        <div class="col-lg-2 col-12 d-grid">
+            <img class="" src="http://bionic-market.doradothemes.com/img/cms/dorado/logo_bionic_fashion_white.png"
+                alt="" />
+            <span class="text-white text-center">Get Question ? Contact Us 24/7</span>
+            <small class="fw-ligh text-secondary text-center">contact@bionic.com</small>
+            <h2 class="text__tomato text-center">1-888-123-456</h2>
 
+        </div>
+        <div class="col-lg-4 col-12 justify-content-center align-items-center">
+            <ul class="d-flex flex-wrap gap-5 list-unstyled justify-content-center align-items-center">
+                <li><a class="text-decoration-none  footer__section" href="">ABOUT US</a></li>
+                <li><a class="text-decoration-none  footer__section" href="">CONTACT</a></li>
+                <li><a class="text-decoration-none  footer__section" href="">PRIVACY POLICY</a></li>
+                <li><a class="text-decoration-none footer__section" href="">PROMOTİONS</a></li>
+                <li><a class="text-decoration-none  footer__section" href="">FAQS</a></li>
+            </ul>
+            <ul class=" d-flex gap-5 list-unstyled justify-content-center">
+                <div class="bi bi-facebook bi__dark " data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                </div>
+                <div class="bi bi-twitter bi__dark " data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                </div>
+                <div class="bi bi-instagram bi__dark " data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Instagram"></div>
+                <div class="bi bi-pinterest bi__dark " data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Pinterest"></div>
+                <div class="bi bi-instagram bi__dark " data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Instagram"></div>
 
+            </ul>
+        </div>
+        <div class="col-lg-2 col-12 d-grid justify-content-end  text-end">
+            <h5 class="text-white">Secured by</h5>
+            <small class="text-secondary">We care about you and the safety of your purchases!</small>
+            <a href=""><img src="http://bionic-market.doradothemes.com/img/cms/dorado/secured-by.png" alt=""></a>
+            <h4 class=" text-white">Payment methods</h4>
+            <a href=""><img src="  http://bionic-market.doradothemes.com/img/cms/dorado/payment-methods.png" alt=""></a>
+        </div>
 
+        <div class="col-12 d-flex justify-content-center mt-5 pt-3 border-top border-secondary border-opacity-50">
+            <span class="text-white">Copyright 2020 <span class="text__tomato">BIONIC SHOES </span> - All Rights
+                Reserved</span>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        // If you do not want to use jQuery you can use Pure JavaScript. See FAQ below
+        $(document).ready(function () {
+            $('[data-bs-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
+
 </html>

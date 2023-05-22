@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:  rgb(0, 0, 0);
+}
+.carousel-caption {
+top: 40%;
+}
+.card__img__hover{
+    -webkit-filter: grayscale(100%);
+}
+.card__img__hover:hover{
+    -webkit-filter: grayscale(0%);
+}
+.watch__card{
+    border: 1px solid #ffffff50;
+    margin: 10px;
+}
+.watch__btn{
+    background-color: #2a2a2a;
+}
+.watch__size{
+    background-size: cover;
+    width:100%;
+    height:100%;
+    max-width: 250px;
+    max-height: 250px;
+}
+.navbar__container{
+    background-color: #000;
+}
+.left__banner{
+    background-image: url("http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/assets/img/dorado/dis-bg1.jpg");
+}
+.right__banner{
+    background-image: url("http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/assets/img/dorado/dis-bg1_2.jpg");
+}
+.vertical__line{
+    width: 2px;
+    height: 20px;
+   border-left: 2px solid white;
+   margin-bottom: 10px;
+   margin: 10px;
+}
+.Col__2__img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.instagram__content__container{
+    background-color: #2a2a2a;
+    color: white;
+    display: grid;
+}
+
+.bi-instagram__big{
+font-size: 42px;
+}
+.instagram__img{
+   max-width: 100%;
+   max-height: 100%;
+   -webkit-filter: grayscale(45%);
+}
+.instagram__img:hover{
+    -webkit-filter: grayscale(0%);
+}
+.bi__dark,.bi__white{
+    color: #828282;
+    border-radius: 50%;
+    border: 1px solid #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.bi__white{
+    color: white;
+    border: none;
+ }
+.bi__dark:hover{
+
+}
+.bi-facebook:hover{
+    background: #337ab7;
+    color: white;
+}
+.bi-twitter:hover{
+    background-color:#2fb5d2 ;
+    color: white;
+}
+.bi-pinterest:hover{
+    background-color:red ;
+    color: white;
+}
+.bi-instagram:hover{
+    background-color:#ea13bbf4 ;
+    color: white;
+}
+
+.footer__top__bg{
+    background-color: #e76e62;
+}
+.btn__subscribe{
+    font-size: 12px;
+    font-weight: 700;
+    border: 0px;
+    background-color: white;
+    border-radius:0px  20px 20px 0px;
+
+}
+.btn__subscribe:hover{
+    color: #e76e62;
+}
+
+input{
+    outline: none;
+}
+.search__container{
+    padding: 10px;
+}
+.footer__section{
+    color: #828282
+}
+.footer__section:hover{
+color: #e76e62;
+text-decoration: solid;
+}
+.text__tomato{
+    color: #e76e62;
+}
+input,
+input::placeholder {
+    font: 10px sans-serif;
+}
+.bg__tomato{
+    background:#e76e62;
+}
+.navbar-toggler{
+    color: white;
+    width: 27px;
+    height: 27px;
+    font-size: 26px;
+}
+.navbar{
+    --bs-navbar-toggler-icon-bg:hidden;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+.dropdown__hover{
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+.dropdown__hover:hover{
+    color: #e76e62;
+    transition: 1s;
+}
+.users__content{
+    border-top: 2px solid #e76e62;
+}
+.btn__hover{
+    color: white;
+}
+.btn__hover:hover{
+    color: #e76e62;
+}
+.btn__dropdown{
+    padding: 10px;
+    background:#e76e62;
+    justify-content: padd;
+}
