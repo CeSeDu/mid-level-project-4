@@ -96,7 +96,7 @@ object-fit: cover;
 }
 .bi__dark:hover {
 }
-.bi-facebook:hover {
+.bi-facebook:hover ,.bi-linkedin:hover{
   background: #337ab7;
   color: white;
 }
@@ -284,22 +284,44 @@ ul {
 }
 .watch__card:hover .card__price {
   display: none;
+  width: max-content;
 }
 .card__img__container2{
-  
+  border: 1px solid #00000010;
 }
-.wiev__btn{
+.watch__img__size{
+  max-width: 350px;
+  max-height: 350px;
+}
+.wiev__btn,.wiev__btn2{
   width: 30px;
   height: 30px;
   border: 1px solid white;
   border-radius: 50%;
   position: absolute;
-  margin-top:-330px;
+  margin-top:-300px;
   padding: 5px;
+}
+.wiev__btn2{
+  border:1px solid #00000010;
+  color: #e76e62;
+  padding: 0px;
+  display: none;
+}
+
+.wiev__btn2:hover{
+border-color: #e76e62;
+}
+.eye:hover{
+  fill: #e76e62;
+}
+
+.watch__card:hover .wiev__btn2{
+  display: block;
 }
 .wiev__btn::after {
   content: " svg ";
-color: #000;
+color: transparent;
 
 }
 
@@ -355,4 +377,82 @@ top: 10px;
     object-fit: cover;
 
   }
+}
+.watch__header__backgroundImg{
+  background-image: url(http://bionic-market.doradothemes.com/watch/themes/bionic_watch1/assets/img/dorado/bg-breadcrumb.jpg);
+  width: 100%;
+min-height: 400px;
+}
+.group__relevance{
+  min-width: 250px;
+  padding-right: 0px;
+
+}
+.dropdown-toggle::after{
+  margin-left: 150px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #e76e62;
+}
+.nav-link{
+color: #2a2a2a95;
+}
+.watch__nav__item__color{
+  color: white;
+}
+.clear__btn__hover:hover{
+background-color: #828282  !important;
+}
+.color__box{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.color__box:hover,.button__red__hover__effect{
+  transition: all 0.7s ease 0s;
+border: 3px solid #e76e62 !important;
+}
+
+.section__button{
+  background-color: transparent;
+
+border-radius: 5px;
+font-size: 12px;
+}
+.color__box__small{
+  max-width: 15px;
+  max-height: 15px;
+}
+.watch__img__size{
+max-width: 270px;
+max-height: 200px;
+}
+.cross_line::before{
+  content: " ";
+  background: #b0b0b0 none repeat scroll 0 0;
+  transform: translate3d(-50%,-50%,0) rotate(-10deg);
+  position: absolute;
+margin-top: 12px;
+margin-left: 25px;
+  width: 4%;
+  height: 1px;
+}
+.cross_line{
+  color: #828282;
+  font-size: 15px;
+}
+.watch__img__size2{
+  width: 100px;
+  
+}
+.btn__basket{
+  background-color:transparent;
+  border-radius: 50%;
+  color: #e76e62;
+  border-color: #e76e62 ;
+  border-style: solid;
+  border-width: 1px;
+}
+.vertical__card__container:hover{
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
